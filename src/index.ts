@@ -1,4 +1,4 @@
-import { readKeys, generateOrReadKeys, namedKeys } from 'vendee/build/keys'
+import { readKeys, generateOrReadKeys, namedKeys } from 'vasku/build/keys'
 export {
   readKeys,
   generateOrReadKeys,

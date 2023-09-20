@@ -1,6 +1,6 @@
 {
-  "name": "vendee-keys",
-  "version": "1.0.1",
+  "name": "vasku-keys",
+  "version": "0.0.1",
   "description": "Methods of working with key pair",
   "scripts": {
     "build": "tsc --build .",
@@ -10,7 +10,7 @@
     "prepublishOnly": "yarn build"
   },
   "main": "build/index.js",
-  "repository": "https://github.com/kokkekpek/vendee-keys",
+  "repository": "https://github.com/kokkekpek/vasku-keys",
   "author": "@kokkekpek",
   "license": "GPL-3.0",
   "engines": {
@@ -27,7 +27,7 @@
     "yarn.lock"
   ],
   "keywords": [
-    "Vendee",
+    "Vasku",
     "Venom",
     "Everscale",
     "TON",
@@ -40,7 +40,7 @@
     "Keys"
   ],
   "dependencies": {
-    "vendee": "^1.0.20"
+    "vasku": "^0.0.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
