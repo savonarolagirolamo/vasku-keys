@@ -1,4 +1,4 @@
-import { readKeys, generateOrReadKeys, namedKeys } from 'vendee/src/keys'
+import { readKeys, generateOrReadKeys, namedKeys } from 'vendee/build/keys'
 export {
   readKeys,
   generateOrReadKeys,
