@@ -2,14 +2,12 @@
 
 ![cover](docs/cover.svg)
 
-Methods of working with key pair in [Vasku](https://github.com/kokkekpek/vasku) scripts and tests
+Use key pair in [Vasku](https://github.com/kokkekpek/vasku) scripts
 
 ![npm](https://img.shields.io/npm/v/vasku-keys?label=npm)
 ![downloads](https://img.shields.io/npm/dt/vasku-keys?label=downloads)
 
-## How to use
-
-### Read key pair from JSON file
+## Read key pair from JSON file
 
 ```typescript
 import { readKeys } from 'vasku-keys'
@@ -17,7 +15,7 @@ import { readKeys } from 'vasku-keys'
 const keys: KeyPair = readKeys('/home/user/keys/GiverV2.keys.json')
 ```
 
-### Generate random key pair if key file does not exist
+## Generate random key pair if key file does not exist
 
 ```typescript
 import { generateOrReadKeys } from 'vasku-keys'
@@ -25,7 +23,7 @@ import { generateOrReadKeys } from 'vasku-keys'
 const keys: KeyPair = await generateOrReadKeys('/home/user/keys/GiverV3.keys.json')
 ```
 
-### Generate JSON file with random key pair in keys directory if key file does not exist
+## Generate JSON file with random key pair in keys directory if key file does not exist
 
 ```typescript
 import { namedKeys } from 'vasku-keys'
@@ -35,26 +33,4 @@ const keys: KeyPair = await namedKeys('giver')
 
 ## Development
 
-### Build
-
-```shell
-yarn build
-```
-
-### Remove build directory
-
-```shell
-yarn clean
-```
-
-### Lint
-
-Run before commit
-
-```shell
-yarn lint
-```
-
-```shell
-yarn fix
-```
+[CONTRIBUTING.md](./CONTRIBUTING.md)
