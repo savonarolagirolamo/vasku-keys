@@ -10,8 +10,8 @@
     "prepublishOnly": "yarn build"
   },
   "main": "build/index.js",
-  "repository": "https://github.com/kokkekpek/vasku-keys",
-  "author": "@kokkekpek",
+  "repository": "https://github.com/savonarolagirolamo/vasku-keys",
+  "author": "@savonarolagirolamo",
   "license": "GPL-3.0",
   "engines": {
     "node": ">=14.0.0"

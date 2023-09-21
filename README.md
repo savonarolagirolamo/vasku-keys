@@ -2,7 +2,7 @@
 
 ![cover](docs/cover.svg)
 
-Use key pair in [Vasku](https://github.com/kokkekpek/vasku) scripts
+Use key pair in [Vasku](https://github.com/savonarolagirolamo/vasku) scripts
 
 ![npm](https://img.shields.io/npm/v/vasku-keys?label=npm)
 ![downloads](https://img.shields.io/npm/dt/vasku-keys?label=downloads)
