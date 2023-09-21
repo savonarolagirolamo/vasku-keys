@@ -40,7 +40,7 @@
     "Keys"
   ],
   "dependencies": {
-    "vasku": "^0.0.1"
+    "vasku": "^0.0.5"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",

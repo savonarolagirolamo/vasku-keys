@@ -4177,13 +4177,13 @@ __metadata:
     eslint-plugin-promise: ^6.1.1
     rimraf: ^5.0.1
     typescript: ~5.0.4
-    vasku: ^0.0.1
+    vasku: ^0.0.5
   languageName: unknown
   linkType: soft
 
-"vasku@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "vasku@npm:0.0.1"
+"vasku@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "vasku@npm:0.0.5"
   dependencies:
     "@eversdk/core": ^1.43.1
     "@eversdk/lib-node": ^1.43.1
@@ -4199,7 +4199,7 @@ __metadata:
     typescript: ^5.0.4
   bin:
     vasku: build/cli/index.js
-  checksum: 092fe40222b9401078980c690dd47e0c92d70b4cf5d7c0d0e81b271019a8403494e54a2cf250426823443b64fad281fe887c510da8d5500a0cf3bfb6dd59aaa2
+  checksum: e3c14984e4c4562206edf07dca66a1d32a75d63b3f555ad7458ebbaf114d2032b1903c5a490a757501eec248b97ab99af7af90c375d273b2d1e3615305337954
   languageName: node
   linkType: hard
 
