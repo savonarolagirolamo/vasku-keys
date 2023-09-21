@@ -1,6 +1,6 @@
 {
   "name": "vasku-keys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Methods of working with key pair",
   "scripts": {
     "build": "tsc --build .",
